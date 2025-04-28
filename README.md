@@ -9,3 +9,4 @@ lesson 4 - Position, Vector, Transforming Scale - https://delilah07.github.io/th
 lesson 5 - Group - https://delilah07.github.io/three.js-course-zeroToMastery/5-lesson/dist/ \
 lesson 6 - Rotation and Animating Meshes - https://delilah07.github.io/three.js-course-zeroToMastery/6-lesson/dist/ \
 lesson 7 - Buffer Geometry - https://delilah07.github.io/three.js-course-zeroToMastery/7-lesson/dist/ \
+lesson 8 - Primitives - https://delilah07.github.io/three.js-course-zeroToMastery/8-lesson/dist/ \
