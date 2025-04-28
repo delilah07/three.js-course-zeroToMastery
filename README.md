@@ -2,8 +2,9 @@
 
 Three.js 101 Crash Course / Zero To Mastery
 
-lesson 1 - add object - https://delilah07.github.io/three.js-course-zeroToMastery/1-lesson/dist/ \
-lesson 2 - orbit control - https://delilah07.github.io/three.js-course-zeroToMastery/2-lesson/dist/ \
-lesson 3 - resizing and antialiasing - https://delilah07.github.io/three.js-course-zeroToMastery/3-lesson/dist/ \
-lesson 4 - position, vector, transforming scale - https://delilah07.github.io/three.js-course-zeroToMastery/4-lesson/dist/
-lesson 5 - group - https://delilah07.github.io/three.js-course-zeroToMastery/5-lesson/dist/
+lesson 1 - add Object - https://delilah07.github.io/three.js-course-zeroToMastery/1-lesson/dist/ \
+lesson 2 - Orbit Control - https://delilah07.github.io/three.js-course-zeroToMastery/2-lesson/dist/ \
+lesson 3 - Resizing and Antialiasing - https://delilah07.github.io/three.js-course-zeroToMastery/3-lesson/dist/ \
+lesson 4 - Position, Vector, Transforming Scale - https://delilah07.github.io/three.js-course-zeroToMastery/4-lesson/dist/ \
+lesson 5 - Group - https://delilah07.github.io/three.js-course-zeroToMastery/5-lesson/dist/ \
+lesson 6 - Rotation and Animating Meshes - https://delilah07.github.io/three.js-course-zeroToMastery/6-lesson/dist/ \
