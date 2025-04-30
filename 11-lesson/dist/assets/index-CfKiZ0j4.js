@@ -29086,7 +29086,9 @@ const Hr = new jv(),
   Hw = new Lr(1, 1),
   Gw = new Da(0.5, 32, 32),
   Ww = new La(0.5, 0.5, 1, 32),
-  Xw = kw.load('./texture/patchy-meadow1-bl/patchy-meadow1_albedo.png'),
+  Xw = kw.load(
+    './three.js-course-zeroToMastery/11-lesson/dist/texture/patchy-meadow1-bl/patchy-meadow1_albedo.png'
+  ),
   gi = new Aa();
 gi.map = Xw;
 gi.color = new jt('yellow');
