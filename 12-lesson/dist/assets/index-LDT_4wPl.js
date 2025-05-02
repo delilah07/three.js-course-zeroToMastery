@@ -29087,7 +29087,7 @@ const Fw = new Ow(),
   Hw = new Ua(0.5, 32, 32),
   Gw = new Ia(0.5, 0.5, 1, 32),
   sr = Bw.load(
-    './three.js-course-zeroToMastery/11-lesson/dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_albedo.png'
+    './three.js-course-zeroToMastery/12-lesson/dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_albedo.png'
   );
 sr.repeat.set(2, 2);
 sr.wrapS = wr;
