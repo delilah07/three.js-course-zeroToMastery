@@ -15,3 +15,4 @@ lesson 10 - Material MeshLambertMaterial, MeshPhongMaterial, MeshStandardMateria
 lesson 11 - Textures - https://delilah07.github.io/three.js-course-zeroToMastery/11-lesson/dist/ \
 lesson 12 - Textures Repeat and Offset - https://delilah07.github.io/three.js-course-zeroToMastery/12-lesson/dist/ \
 lesson 13 - UV Mapping, PBR Maps - https://delilah07.github.io/three.js-course-zeroToMastery/13-lesson/dist/ \
+lesson 14 - Different Texures - https://delilah07.github.io/three.js-course-zeroToMastery/14-lesson/dist/ \
