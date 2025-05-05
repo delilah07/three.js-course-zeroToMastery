@@ -29175,22 +29175,16 @@ const dl = new La(0.5, 0.5, 1, 32),
   $M = new Pe(dl.attributes.uv.array, 2);
 dl.setAttribute('uv2', $M);
 const ZM = sr.load(
-    './three.js-course-zeroToMastery/13-lesson/dist/texture/patchy-meadow1-bl/patchy-meadow1_albedo.png'
+    './dist/texture/patchy-meadow1-bl/patchy-meadow1_albedo.png'
   ),
-  JM = sr.load(
-    './three.js-course-zeroToMastery/13-lesson/dist/texture/patchy-meadow1-bl/patchy-meadow1_ao.png'
-  ),
-  QM = sr.load(
-    './three.js-course-zeroToMastery/13-lesson/dist/texture/patchy-meadow1-bl/patchy-meadow1_height.png'
-  ),
-  tw = sr.load(
-    './three.js-course-zeroToMastery/13-lesson/dist/texture/patchy-meadow1-bl/patchy-meadow1_metallic.png'
-  ),
+  JM = sr.load('./dist/texture/patchy-meadow1-bl/patchy-meadow1_ao.png'),
+  QM = sr.load('./dist/texture/patchy-meadow1-bl/patchy-meadow1_height.png'),
+  tw = sr.load('./dist/texture/patchy-meadow1-bl/patchy-meadow1_metallic.png'),
   ew = sr.load(
-    './three.js-course-zeroToMastery/13-lesson/dist/texture/patchy-meadow1-bl/patchy-meadow1_normal-ogl.png'
+    './dist/texture/patchy-meadow1-bl/patchy-meadow1_normal-ogl.png'
   ),
   nw = sr.load(
-    './three.js-course-zeroToMastery/13-lesson/dist/texture/patchy-meadow1-bl/patchy-meadow1_roughnes0s.png'
+    './dist/texture/patchy-meadow1-bl/patchy-meadow1_roughnes0s.png'
   ),
   Be = new Qv();
 Be.map = ZM;

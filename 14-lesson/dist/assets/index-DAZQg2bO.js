@@ -28952,64 +28952,52 @@ const ml = new qM(),
   YM = new on(Xr.attributes.uv.array, 2);
 Xr.setAttribute('uv2', YM);
 const Uu = xe.load(
-  './three.js-course-zeroToMastery/14-lesson/dist/texture/columned-lava-rock-bl/columned-lava-rock_albedo.png'
+  './dist/texture/columned-lava-rock-bl/columned-lava-rock_albedo.png'
 );
 Uu.colorSpace = ze;
 const KM = xe.load(
-    './three.js-course-zeroToMastery/14-lesson/dist/texture/columned-lava-rock-bl/columned-lava-rock_ao.png'
+    './dist/texture/columned-lava-rock-bl/columned-lava-rock_ao.png'
   ),
   $M = xe.load(
-    './three.js-course-zeroToMastery/14-lesson/dist/texture/columned-lava-rock-bl/columned-lava-rock_emissive.png'
+    './dist/texture/columned-lava-rock-bl/columned-lava-rock_emissive.png'
   ),
   ZM = xe.load(
-    './three.js-course-zeroToMastery/14-lesson/dist/texture/columned-lava-rock-bl/columned-lava-rock_height.png'
+    './dist/texture/columned-lava-rock-bl/columned-lava-rock_height.png'
   ),
   JM = xe.load(
-    './three.js-course-zeroToMastery/14-lesson/dist/texture/columned-lava-rock-bl/columned-lava-rock_metallic.png'
+    './dist/texture/columned-lava-rock-bl/columned-lava-rock_metallic.png'
   ),
   QM = xe.load(
-    './three.js-course-zeroToMastery/14-lesson/dist/texture/columned-lava-rock-bl/columned-lava-rock_normal-ogl.png'
+    './dist/texture/columned-lava-rock-bl/columned-lava-rock_normal-ogl.png'
   ),
   tw = xe.load(
-    './three.js-course-zeroToMastery/14-lesson/dist/texture/columned-lava-rock-bl/columned-lava-rock_roughness.png'
+    './dist/texture/columned-lava-rock-bl/columned-lava-rock_roughness.png'
   ),
-  Nu = xe.load(
-    './three.js-course-zeroToMastery/14-lesson/dist/texture/vines-bl/vines_albedo.png'
-  );
+  Nu = xe.load('./dist/texture/vines-bl/vines_albedo.png');
 Nu.colorSpace = ze;
-const ew = xe.load(
-    './three.js-course-zeroToMastery/14-lesson/dist/texture/vines-bl/vines_ao.png'
-  ),
-  nw = xe.load(
-    './three.js-course-zeroToMastery/14-lesson/dist/texture/vines-bl/vines_height.png'
-  ),
-  iw = xe.load(
-    './three.js-course-zeroToMastery/14-lesson/dist/texture/vines-bl/vines_metallic.png'
-  ),
-  rw = xe.load(
-    './three.js-course-zeroToMastery/14-lesson/dist/texture/vines-bl/vines_normal-ogl.png'
-  ),
-  sw = xe.load(
-    './three.js-course-zeroToMastery/14-lesson/dist/texture/vines-bl/vines_roughness.png'
-  ),
+const ew = xe.load('./dist/texture/vines-bl/vines_ao.png'),
+  nw = xe.load('./dist/texture/vines-bl/vines_height.png'),
+  iw = xe.load('./dist/texture/vines-bl/vines_metallic.png'),
+  rw = xe.load('./dist/texture/vines-bl/vines_normal-ogl.png'),
+  sw = xe.load('./dist/texture/vines-bl/vines_roughness.png'),
   Ou = xe.load(
-    './three.js-course-zeroToMastery/14-lesson/dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_albedo.png'
+    './dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_albedo.png'
   );
 Ou.colorSpace = ze;
 const ow = xe.load(
-    './three.js-course-zeroToMastery/14-lesson/dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_ao.png'
+    './dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_ao.png'
   ),
   aw = xe.load(
-    './three.js-course-zeroToMastery/14-lesson/dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_height.png'
+    './dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_height.png'
   ),
   lw = xe.load(
-    './three.js-course-zeroToMastery/14-lesson/dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_metallic.png'
+    './dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_metallic.png'
   ),
   cw = xe.load(
-    './three.js-course-zeroToMastery/14-lesson/dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_normal-ogl.png'
+    './dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_normal-ogl.png'
   ),
   hw = xe.load(
-    './three.js-course-zeroToMastery/14-lesson/dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_roughness.png'
+    './dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_roughness.png'
   ),
   jr = ml.addFolder({ title: 'lava Material', expanded: !0 }),
   Oe = new Va();
