@@ -29174,18 +29174,12 @@ ul.setAttribute('uv2', KM);
 const dl = new La(0.5, 0.5, 1, 32),
   $M = new Pe(dl.attributes.uv.array, 2);
 dl.setAttribute('uv2', $M);
-const ZM = sr.load(
-    './dist/texture/patchy-meadow1-bl/patchy-meadow1_albedo.png'
-  ),
-  JM = sr.load('./dist/texture/patchy-meadow1-bl/patchy-meadow1_ao.png'),
-  QM = sr.load('./dist/texture/patchy-meadow1-bl/patchy-meadow1_height.png'),
-  tw = sr.load('./dist/texture/patchy-meadow1-bl/patchy-meadow1_metallic.png'),
-  ew = sr.load(
-    './dist/texture/patchy-meadow1-bl/patchy-meadow1_normal-ogl.png'
-  ),
-  nw = sr.load(
-    './dist/texture/patchy-meadow1-bl/patchy-meadow1_roughnes0s.png'
-  ),
+const ZM = sr.load('./texture/patchy-meadow1-bl/patchy-meadow1_albedo.png'),
+  JM = sr.load('./texture/patchy-meadow1-bl/patchy-meadow1_ao.png'),
+  QM = sr.load('./texture/patchy-meadow1-bl/patchy-meadow1_height.png'),
+  tw = sr.load('./texture/patchy-meadow1-bl/patchy-meadow1_metallic.png'),
+  ew = sr.load('./texture/patchy-meadow1-bl/patchy-meadow1_normal-ogl.png'),
+  nw = sr.load('./texture/patchy-meadow1-bl/patchy-meadow1_roughnes0s.png'),
   Be = new Qv();
 Be.map = ZM;
 Be.roughnessMap = nw;

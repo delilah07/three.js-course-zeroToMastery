@@ -28952,52 +28952,48 @@ const ml = new qM(),
   YM = new on(Xr.attributes.uv.array, 2);
 Xr.setAttribute('uv2', YM);
 const Uu = xe.load(
-  './dist/texture/columned-lava-rock-bl/columned-lava-rock_albedo.png'
+  './texture/columned-lava-rock-bl/columned-lava-rock_albedo.png'
 );
 Uu.colorSpace = ze;
-const KM = xe.load(
-    './dist/texture/columned-lava-rock-bl/columned-lava-rock_ao.png'
-  ),
+const KM = xe.load('./texture/columned-lava-rock-bl/columned-lava-rock_ao.png'),
   $M = xe.load(
-    './dist/texture/columned-lava-rock-bl/columned-lava-rock_emissive.png'
+    './texture/columned-lava-rock-bl/columned-lava-rock_emissive.png'
   ),
-  ZM = xe.load(
-    './dist/texture/columned-lava-rock-bl/columned-lava-rock_height.png'
-  ),
+  ZM = xe.load('./texture/columned-lava-rock-bl/columned-lava-rock_height.png'),
   JM = xe.load(
-    './dist/texture/columned-lava-rock-bl/columned-lava-rock_metallic.png'
+    './texture/columned-lava-rock-bl/columned-lava-rock_metallic.png'
   ),
   QM = xe.load(
-    './dist/texture/columned-lava-rock-bl/columned-lava-rock_normal-ogl.png'
+    './texture/columned-lava-rock-bl/columned-lava-rock_normal-ogl.png'
   ),
   tw = xe.load(
-    './dist/texture/columned-lava-rock-bl/columned-lava-rock_roughness.png'
+    './texture/columned-lava-rock-bl/columned-lava-rock_roughness.png'
   ),
-  Nu = xe.load('./dist/texture/vines-bl/vines_albedo.png');
+  Nu = xe.load('./texture/vines-bl/vines_albedo.png');
 Nu.colorSpace = ze;
-const ew = xe.load('./dist/texture/vines-bl/vines_ao.png'),
-  nw = xe.load('./dist/texture/vines-bl/vines_height.png'),
-  iw = xe.load('./dist/texture/vines-bl/vines_metallic.png'),
-  rw = xe.load('./dist/texture/vines-bl/vines_normal-ogl.png'),
-  sw = xe.load('./dist/texture/vines-bl/vines_roughness.png'),
+const ew = xe.load('./texture/vines-bl/vines_ao.png'),
+  nw = xe.load('./texture/vines-bl/vines_height.png'),
+  iw = xe.load('./texture/vines-bl/vines_metallic.png'),
+  rw = xe.load('./texture/vines-bl/vines_normal-ogl.png'),
+  sw = xe.load('./texture/vines-bl/vines_roughness.png'),
   Ou = xe.load(
-    './dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_albedo.png'
+    './texture/space-cruiser-panels2-bl/space-cruiser-panels2_albedo.png'
   );
 Ou.colorSpace = ze;
 const ow = xe.load(
-    './dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_ao.png'
+    './texture/space-cruiser-panels2-bl/space-cruiser-panels2_ao.png'
   ),
   aw = xe.load(
-    './dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_height.png'
+    './texture/space-cruiser-panels2-bl/space-cruiser-panels2_height.png'
   ),
   lw = xe.load(
-    './dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_metallic.png'
+    './texture/space-cruiser-panels2-bl/space-cruiser-panels2_metallic.png'
   ),
   cw = xe.load(
-    './dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_normal-ogl.png'
+    './texture/space-cruiser-panels2-bl/space-cruiser-panels2_normal-ogl.png'
   ),
   hw = xe.load(
-    './dist/texture/space-cruiser-panels2-bl/space-cruiser-panels2_roughness.png'
+    './texture/space-cruiser-panels2-bl/space-cruiser-panels2_roughness.png'
   ),
   jr = ml.addFolder({ title: 'lava Material', expanded: !0 }),
   Oe = new Va();

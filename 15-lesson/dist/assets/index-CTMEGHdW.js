@@ -28973,13 +28973,13 @@ new OM();
 const sr = new Wv(),
   or = new Yv(),
   Tu = new qv();
-Tu.setPath('./dist/textures/cubeMap/');
+Tu.setPath('./textures/cubeMap/');
 const FM = or.load('./textures/2k_sun.jpg'),
-  BM = or.load('./dist/textures/2k_mercury.jpg'),
-  kM = or.load('./dist/textures/2k_venus_surface.jpg'),
-  VM = or.load('./dist/textures/2k_earth_daymap.jpg'),
-  zM = or.load('./dist/textures/2k_mars.jpg'),
-  HM = or.load('./dist/textures/2k_moon.jpg'),
+  BM = or.load('./textures/2k_mercury.jpg'),
+  kM = or.load('./textures/2k_venus_surface.jpg'),
+  VM = or.load('./textures/2k_earth_daymap.jpg'),
+  zM = or.load('./textures/2k_mars.jpg'),
+  HM = or.load('./textures/2k_moon.jpg'),
   GM = Tu.load(['px.png', 'nx.png', 'py.png', 'ny.png', 'pz.png', 'nz.png']);
 sr.background = GM;
 const WM = new Ir({ map: BM }),
