@@ -11,6 +11,8 @@ const scene = new THREE.Scene();
 
 // add texture Loader
 const textureLoader = new THREE.TextureLoader();
+const cubeTextureLoader = new THREE.CubeTextureLoader();
+cubeTextureLoader.setPath('/textures/cubeMap/');
 
 // add stuff here
 const sunTexture = textureLoader.load('/textures/2k_sun.jpg');
@@ -24,6 +26,21 @@ const marsTexture = textureLoader.load('/textures/2k_mars.jpg');
 // marsTexture.colorSpace = THREE.SRGBColorSpace
 const moonTexture = textureLoader.load('/textures/2k_moon.jpg');
 // moonTexture.colorSpace = THREE.SRGBColorSpace
+
+// const backgroundTexture = textureLoader.load(
+//   '/textures/2k_stars_milky_way.jpg'
+// );
+// scene.background = backgroundTexture;
+
+const backgroundCubemap = cubeTextureLoader.load([
+  'px.png',
+  'nx.png',
+  'py.png',
+  'ny.png',
+  'pz.png',
+  'nz.png',
+]);
+scene.background = backgroundCubemap;
 
 // add materials
 const mercuryMaterial = new THREE.MeshStandardMaterial({
@@ -133,8 +150,10 @@ const planetMeshes = planets.map((planet) => {
 });
 
 //add light
-const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+const ambientLight = new THREE.AmbientLight(0xffffff, 0.03);
 scene.add(ambientLight);
+const pointLight = new THREE.PointLight(0xffffff, 200);
+scene.add(pointLight);
 
 // initialize the camera
 const camera = new THREE.PerspectiveCamera(
@@ -165,12 +184,8 @@ window.addEventListener('resize', () => {
   renderer.setSize(window.innerWidth, window.innerHeight);
 });
 
-// initialize a clock
-const clock = new THREE.Clock();
-
 // render loop
 const renderloop = () => {
-  const elapsedTime = clock.getElapsedTime();
   //add animation
   planetMeshes.forEach((planet, i) => {
     planet.rotation.y += planets[i].speed;
